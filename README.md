@@ -34,9 +34,10 @@ git clone https://github.com/NidalIG/projet-microservice.git
 cd projet-microservice
 2. Construire les microservices :
 mvn clean install
+
 3. Lancer les services :
 Chaque microservice peut être lancé séparément depuis l’IDE ou en ligne de commande :
-
+```bash
 cd product-service
 mvn spring-boot:run
 ## Configuration
